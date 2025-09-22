@@ -38,16 +38,22 @@ export const CHALLENGE_TYPES = [
   { id: 'custom', name: 'Custom Challenge', duration: 0, description: 'Set your own timeline and goals' },
 ] as const;
 
-export const SAMPLE_HABITS = [
-  { name: 'Drink 8 glasses of water', category: 'health', goalType: 'build' as const },
-  { name: 'Meditate for 10 minutes', category: 'mindfulness', goalType: 'build' as const },
-  { name: 'Read for 30 minutes', category: 'learning', goalType: 'build' as const },
-  { name: 'Exercise for 30 minutes', category: 'health', goalType: 'build' as const },
-  { name: 'Write in journal', category: 'mindfulness', goalType: 'build' as const },
-  { name: 'No social media before noon', category: 'productivity', goalType: 'break' as const },
-  { name: 'No smoking', category: 'health', goalType: 'break' as const },
-  { name: 'No junk food', category: 'health', goalType: 'break' as const },
-] as const;
+export type SampleHabit = {
+  name: string;
+  category: string;
+  goalType: 'build' | 'break';
+};
+
+export const SAMPLE_HABITS: SampleHabit[] = [
+  { name: 'Drink 8 glasses of water', category: 'health', goalType: 'build' },
+  { name: 'Meditate for 10 minutes', category: 'mindfulness', goalType: 'build' },
+  { name: 'Read for 30 minutes', category: 'learning', goalType: 'build' },
+  { name: 'Exercise for 30 minutes', category: 'health', goalType: 'build' },
+  { name: 'Write in journal', category: 'mindfulness', goalType: 'build' },
+  { name: 'No social media before noon', category: 'productivity', goalType: 'break' },
+  { name: 'No smoking', category: 'health', goalType: 'break' },
+  { name: 'No junk food', category: 'health', goalType: 'break' },
+];
 
 export const ENCOURAGEMENT_MESSAGES = [
   "Keep it up! You're doing amazing! 🌟",
