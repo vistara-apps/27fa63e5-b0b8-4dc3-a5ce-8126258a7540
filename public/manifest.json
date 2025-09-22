@@ -1,0 +1,14 @@
+{
+  "name": "HabitSphere",
+  "description": "HabitSphere is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://27fa63e5-b0b8-4dc3-a5ce-8126258a7540.vercel.app",
+  "properties": {
+    "app": {
+      "name": "HabitSphere",
+      "description": "HabitSphere is a Base Mini App built with Zara.",
+      "url": "https://27fa63e5-b0b8-4dc3-a5ce-8126258a7540.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}
