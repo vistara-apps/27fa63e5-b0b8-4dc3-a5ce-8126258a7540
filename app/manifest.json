@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjkxNTIsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgwMmVmNzkwRGQ3OTkzQTM1ZkQ4NDdDMDUzRURkQUU5NDBEMDU1NTk2In0",
+    "payload": "eyJkb21haW4iOiJoYWJpdHNwaGVyZS5hcHAifQ",
+    "signature": "MHgxMGQwZGU4ZGYwZDUwZTdmMGIxN2YxMTU2NDI1MjRmZTY0MTUyZGU4ZGU1MWU0MThiYjU4ZjVmZmQxYjRjNDBiNGVlZTRhNDcwNmVmNjhlMzQ0ZGQ5MDBkYmQyMmNlMmVlZGY5ZGQ0N2JlNWRmNzMwYzUxNjE4OWVjZDJjY2Y0MDFj"
+  },
+  "frame": {
+    "version": "1",
+    "name": "HabitSphere",
+    "homeUrl": "https://habitsphere.app",
+    "iconUrl": "https://habitsphere.app/icon.png",
+    "splashImageUrl": "https://habitsphere.app/splash.png",
+    "splashBackgroundColor": "#f8fafc",
+    "webhookUrl": "https://habitsphere.app/api/webhook",
+    "subtitle": "Forge lasting habits",
+    "description": "A gamified Base MiniApp that helps users build or break habits through streaks, rewards, and social connections.",
+    "screenshotUrls": [
+      "https://habitsphere.app/screenshot1.png",
+      "https://habitsphere.app/screenshot2.png",
+      "https://habitsphere.app/screenshot3.png"
+    ],
+    "primaryCategory": "social",
+    "tags": ["habits", "gamification", "social", "productivity", "wellness"],
+    "heroImageUrl": "https://habitsphere.app/hero.png",
+    "tagline": "Forge lasting habits, powered by community and gamification",
+    "ogTitle": "HabitSphere - Forge lasting habits",
+    "ogDescription": "A gamified Base MiniApp that helps users build or break habits through streaks, rewards, and social connections.",
+    "ogImageUrl": "https://habitsphere.app/og-image.png"
+  }
+}
