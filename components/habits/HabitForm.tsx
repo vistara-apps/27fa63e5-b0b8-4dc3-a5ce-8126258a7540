@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/Button';
 import { Input } from '@/components/ui/Input';
 import { Badge } from '@/components/ui/Badge';
 import { validateHabitName, generateHabitId } from '@/lib/utils';
-import { HABIT_CATEGORIES, SAMPLE_HABITS } from '@/lib/constants';
+import { HABIT_CATEGORIES, SAMPLE_HABITS, type SampleHabit } from '@/lib/constants';
 import { X, Plus, Target, Calendar } from 'lucide-react';
 
 interface HabitFormProps {
@@ -59,7 +59,7 @@ export function HabitForm({ habit, onSave, onCancel, isLoading = false }: HabitF
     onSave(habitData);
   };
   
-  const handleSuggestionClick = (suggestion: typeof SAMPLE_HABITS[0]) => {
+  const handleSuggestionClick = (suggestion: SampleHabit) => {
     setFormData({
       name: suggestion.name,
       description: '',
